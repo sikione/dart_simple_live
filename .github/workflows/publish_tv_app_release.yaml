@@ -1,9 +1,10 @@
 name: app-build-action
 #推送Tag时触发
-on:
+于:
   push:
     tags:
-      - "tv_*"
+      - "dev_tv_v*"
+  workflow_dispatch:  # <--- 加上这一行，就会出来手动按钮了
 jobs:
   build-tv:
     runs-on: macos-latest
