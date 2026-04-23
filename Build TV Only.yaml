@@ -1,7 +1,7 @@
 name: Build TV Only
 
 # 允许手动触发
-on:
+于:
   workflow_dispatch:
 
 jobs:
