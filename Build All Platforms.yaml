@@ -1,6 +1,6 @@
 name: Build All Platforms
 
-on:
+于:
   workflow_dispatch:
 
 jobs:
